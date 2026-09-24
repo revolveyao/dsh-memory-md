@@ -1,0 +1,5 @@
+# dsh-memory-md bundle patch: 一个 insert 注册本插件。
+# insert.id 必须与入口导出的 cordis `name`（'memory-md'）一致。
+- insert:
+    - id: memory-md
+      name: 'dsh-memory-md'
