@@ -17,11 +17,12 @@
 ## 安装
 
 ```sh
-dsh plugin --profile desktop add link:<本仓库路径>
+git clone https://github.com/revolveyao/dsh-memory-md.git C:\dsh-plugins\dsh-memory-md
+dsh plugin --profile desktop add link:C:\dsh-plugins\dsh-memory-md
 ```
 
 `<profile>` 一般是 `desktop`（用 `dsh plugin --profile desktop ls` 可确认）。装完**重启 DSH**。
-也可以用 `file:<本仓库路径>`（复制安装；改源码后需重装）。
+也可以把 `link:` 换成 `file:`（复制安装；改源码后需重装）。
 
 改动 `lib/` 后需重启 DSH 生效（Host 侧 ESM 入口在启动时加载）。要求 Node ≥ 20。
 

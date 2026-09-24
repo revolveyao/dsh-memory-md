@@ -2,6 +2,14 @@
   "name": "dsh-memory-md",
   "version": "0.1.0",
   "description": "分层 Markdown 记忆：用户级 / 项目级 / 会话所在子目录级。单文件 MEMORY.md + 整文件原子替换（tmp+rename）+ sha256 内容 CAS 冲突拒绝。无自动捕获、无定时任务——写入只可能来自模型显式工具调用或人工编辑。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolveyao/dsh-memory-md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/revolveyao/dsh-memory-md/issues"
+  },
+  "homepage": "https://github.com/revolveyao/dsh-memory-md#readme",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
